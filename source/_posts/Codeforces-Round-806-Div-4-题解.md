@@ -26,7 +26,7 @@ tags: [CF,题解]
 
 ### 代码
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 int main() {
@@ -68,7 +68,7 @@ int main() {
 
 ### 代码
 
-```
+```cpp
 #include<iostream>
 #include<string.h>
 using namespace std;
@@ -123,7 +123,7 @@ int main(){
 
 ### 代码
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 int main() {
@@ -174,7 +174,7 @@ emm...只要看每个字符串的（0~1）位、（2~末尾）位或（0~2）位
 
 ### 代码
 
-```
+```cpp
 #include<iostream>
 #include<map>
 using namespace std;

@@ -9,13 +9,13 @@ date: 2022-02-01 20:44:00
 
 ### 1.引入`iomanip`库
 
-```
+```cpp
 #include <iomanip>
 ```
 
 ### 2.使用`fixed`和`setprecision(x)`实现保留
 
-```
+```cpp
 cout << fixed << setprecision(2) << 141 << endl; // 14
 ```
 
