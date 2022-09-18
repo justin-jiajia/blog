@@ -1,14 +1,14 @@
 ---
-title: C++进制转换
+title: 洛谷P1143
 date: 2022-08-24 19:08:10
-categories: C++
-tags: [C++,数学]
+categories: 题解
+tags: [题解,洛谷]
 ---
 如何在C++中进行进制转换？本文将在不使用现成函数的情况下完成这个（并不艰巨）的任务。
 
-<!-- more -->
-
 先抛洛谷链接:[P1143](https://www.luogu.com.cn/problem/P1143)
+
+<!-- more -->
 
 # 进入正题
 
