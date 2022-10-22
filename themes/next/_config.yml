@@ -71,8 +71,8 @@ footer:
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-    enable: false
-    icp:
+    enable: true
+    icp: "苏ICP备2022041299号"
     # The digit in the num of gongan beian.
     gongan_id:
     # The full num of gongan beian.
@@ -330,10 +330,6 @@ calendar:
   showDeleted: false
   singleEvents: true
   maxResults: 250
-  
-auto_excerpt:
-  enable: true
-  length: 150
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -637,7 +633,7 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
-  enable: true
+  enable: false
   github_id: justin-jiajia # GitHub repo owner
   repo: blog # Repository name to store issues
   client_id: 1ef94a12db6f9edd6292 # GitHub Application Client ID
@@ -674,7 +670,7 @@ add_this_id:
 
 # Google Analytics
 google_analytics:
-  tracking_id: G-PRMXDXZNLT # <app_id>
+  tracking_id: # <app_id>
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
   only_pageview: false
