@@ -231,6 +231,14 @@
       {%- endif %}
 
       <footer class="post-footer">
+        <div id="tcomment"></div>
+        <script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
+        <script>
+        twikoo.init({
+          envId: 'https://tk.api.hijiajia.xyz/',
+          el: '#tcomment',
+        })
+        </script>
         {%- if post.tags and post.tags.length %}
           {%- if theme.tag_icon %}
             {%- set tag_indicate = '<i class="fa fa-tag"></i>' %}
