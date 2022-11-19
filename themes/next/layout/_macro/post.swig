@@ -1,6 +1,7 @@
   {##################}
   {### POST BLOCK ###}
   {##################}
+  <script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="{{ post.lang or config.language }}">
     <link itemprop="mainEntityOfPage" href="{{ post.permalink }}">
 
@@ -232,7 +233,6 @@
 
       <footer class="post-footer">
         <div id="tcomment"></div>
-        <script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
         <script>
         twikoo.init({
           envId: 'https://tk.api.hijiajia.xyz/',
