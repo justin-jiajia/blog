@@ -44,8 +44,8 @@
 
 {%- if theme.footer.powered %}
   <div class="powered-by">
-  <a href="https://travellings.link/" target="_blank" rel="noopener" title="开往-友链接力">
-    <img src="https://travellings.link/assets/logo.gif" alt="开往-友链接力" width="120">
+  <a href="https://travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
+    <img src="https://travellings.cn/assets/logo.gif" alt="开往-友链接力" width="120">
 </a>
     {%- set next_site = 'https://theme-next.org' %}
     {%- if theme.scheme !== 'Gemini' %}
